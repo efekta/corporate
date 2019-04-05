@@ -258,7 +258,14 @@ h1, h2, h3, h4, h5, h6 {
 	-moz-flex-wrap: nowrap;
 	-ms-flex-wrap: nowrap;
 	-o-flex-wrap: nowrap;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	text-align: left;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+}
+.price__item {
+	width: 25%;
 }
 .price__pic {
 	width: 35%;
