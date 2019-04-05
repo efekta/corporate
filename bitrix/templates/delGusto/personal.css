@@ -1,0 +1,143 @@
+.personal{
+	background-size:cover;
+	background:url("/upload/personal-back.jpg") no-repeat center;
+	color:#333;
+	padding:10px 0;
+}
+.personal .secondary{
+	font:inherit;
+	cursor:pointer;
+}
+.personal a:hover{
+	color:#fff;
+}
+.personal-block{
+	max-width:400px;
+	margin:0 auto 10px;
+	background-color:#fff;
+	border-radius:15px;
+}
+.personal-block .personal-block-img{
+	width:40px;
+	height:40px;
+	background-size:cover;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:18px;
+}
+.personal-block-head{
+	padding:33px 13px 10px;
+}
+.personal-block-head .hr-big{
+	width:97%;
+}
+.personal-block-img{ }
+.personal-block-title{
+	font:600 22px/20px 'Raleway';
+	display:inline-block;
+	vertical-align:middle;
+	width:210px;
+}
+.personal-block-data{ max-width:345px; margin:0 auto; padding-bottom:15px; padding-right:2%; padding-left:2%; }
+.personal-block-row-name{ display:inline-block; color:#a0a0ad; }
+.personal-block-row-info{ display:inline-block; }
+.personal-button-block{ max-width:345px; margin:0 auto; padding-bottom:25px; text-align:center; }
+.font-red{
+	color:#ff1425;
+}
+.font-yellow{
+	color:#ffc042;
+}
+a.font-green:hover{
+	color:#ff1425;
+}
+.personal-info .personal-button-block{
+	text-align:center;
+}
+.personal-info .secondary{ width:62%; display:inline-block; padding:15px; }
+.personal-info .personal-block-row{ padding-bottom:15px; }
+.personal-info .personal-block-row-name{ width:39%; }
+.personal-info .personal-block-img{
+	background-image:url("/upload/user.png");
+}
+.personal-order-list .personal-block-img{
+	background-image:url("/upload/list.png");
+}
+.bonus-info .personal-block-img{
+	background-image:url("/upload/percentage.png");
+}
+.copr-pay .personal-block-img{
+	background-image:url("/upload/credit-card-(1).png");
+}
+.personal-order-list .font-red,
+.personal-order-list .font-yellow,
+.personal-order-list .font-green{
+	font-weight:900;
+}
+.personal-order-list .personal-button-block{
+	/* text-align:right; */
+}
+.personal-order-list .secondary{ width:62%; display:inline-block; padding:14px;  }
+.subscribe-form .personal-block-img{
+	background-image:url("/upload/subscribe-rss-button.png");
+}
+.subscribe-form .personal-block-row,
+.copr-pay .personal-block-row{
+	position:relative;
+	padding-bottom:10px;
+}
+.subscribe-form .personal-button-block{
+	/* text-align:right; */
+}
+.copr-pay .secondary,
+.subscribe-form .secondary{
+	width:62%;
+	display:inline-block;
+	padding:14px;
+	outline:none;
+	border:none;
+}
+.bonus-info .secondary{
+	width:30%;
+	display:inline-block;
+	padding:15px 5px;
+	font-size: 14px;
+}
+.bonus-info .secondary.button-green{
+	width:62%;
+}
+.uw-authform-input-container textarea{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	margin: 0;
+	padding: 11px 4px 0 22px;
+	border: 1px solid #CCD5DB;
+	border-radius: 2px;
+	background: transparent;
+	outline: none;
+	box-sizing: border-box;
+}
+@media (min-width:767px){
+	.personal-column{
+		width:49%;
+		vertical-align:top;
+		display:inline-block;
+		margin-left:.5%;
+	}
+	.personal-column.o{
+		float:left;
+	}
+}
+@media (min-width:1345px){
+	.personal-column.o{
+		float:none;
+	}
+	.personal-column{
+		width:32%;
+	}
+	.personal-block-title{
+    width: auto;
+	}
+
+}

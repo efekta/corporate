@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Теги сайта">
+    <meta name="description" content="Описание сайта">
+    <link href="bitrix/js/main/core/css/core.css" type="text/css"  rel="stylesheet" />
+    <link href="include/mk/mk.css" type="text/css"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/css/font-awesome.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/css/owl.carousel.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/services.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/standart-typhography.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/form.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/sertifikat.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/personal.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/chefs.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/rwrp.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/js/youtuber.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/template_styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link rel="stylesheet" href="css/sertif.css">
+    <title>Моя корзина</title>
+  </head>
+  <body>
+      <div id="popupPaid" class="popupPaid disabled">
+        <div class="popupPaid__wrap animated bounceOutUp">
+          <div id="popupPaid-close" class="popup-close">
+            <span class="cross-line cross--topper"></span>
+            <span class="cross-line cross--bottom"></span>
+          </div>
+          <h3 class="popupPaid__title">Ваш заказ №132-1 оплачен, <br> <span>Спасибо!</span></h3>
+          <p>Письмо с подтверждением заказа отправлено на вашу электронную почту</p>
+        </div>
+      </div>
+      <div id="popupPaid2" class="popupPaid popupPaid-mk disabled">
+        <div class="popupPaid__wrap popupPaid-mk__wrap animated bounceOutUp">
+          <div id="popupPaid-close" class="popup-close">
+            <span class="cross-line cross--topper"></span>
+            <span class="cross-line cross--bottom"></span>
+          </div>
+          <div class="sertif__time">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="clock" id="clock" viewBox="0 0 24 24" ><g transform="translate(-600 -2025)"><path d="M621.117 2042.299a10.53 10.53 0 0 1-3.856 3.848 10.319 10.319 0 0 1-5.285 1.419c-1.43 0-2.794-.276-4.093-.84-1.298-.565-2.42-1.308-3.357-2.247-.938-.94-1.685-2.073-2.243-3.376a10.355 10.355 0 0 1-.826-4.111c0-1.905.467-3.668 1.403-5.28a10.536 10.536 0 0 1 3.843-3.85 10.239 10.239 0 0 1 5.272-1.418c1.902 0 3.671.476 5.286 1.419a10.563 10.563 0 0 1 3.856 3.849c.944 1.615 1.416 3.375 1.416 5.28 0 1.905-.469 3.68-1.416 5.307zm1.925-9.973c-1.265-2.952-3.415-5.098-6.39-6.368a11.79 11.79 0 0 0-4.672-.958c-1.627 0-3.173.321-4.658.958-2.95 1.266-5.11 3.412-6.377 6.368a11.69 11.69 0 0 0-.945 4.66c0 1.629.31 3.194.945 4.675 1.267 2.956 3.427 5.115 6.377 6.38 1.485.638 3.031.959 4.658.959a11.8 11.8 0 0 0 4.672-.958c2.974-1.27 5.124-3.43 6.39-6.381a11.75 11.75 0 0 0 .958-4.674c0-1.628-.32-3.175-.958-4.66z"></path></g><g transform="translate(-600 -2025)"><path d="M612.38 2037.258v-6.55a.716.716 0 0 0-.709-.708c-.354 0-.671.316-.671.708v6.651c0 .013.024.064.024.101a.676.676 0 0 0 .184.57l3.649 3.78a.677.677 0 0 0 .94 0 .7.7 0 0 0 0-.986z"></path></g><!-- Code injected by live-server -->
+            </svg>
+            <span>23.02 | Суббота в 19:00</span>
+          </div>
+          <h3 class="popupPaid__title popupPaid-mk__title">Кухня настоящего эгоиста</h3>
+          <p>Осталось мест: <span class="popupPaid-mk--accent">5</span></p>
+          <div class="popupPaid-mk__sum">4950 руб</div>
+          <div class="popupPaid-mk__qa">У вас уже есть сертификат на мастер-класс?</div>
+          <div class="popupPaid-mk__btns">
+            <a href="#" class="btn btn--green">Да, ввести номер</a>
+            <a href="#" class="btn btn--red">Нет, купить</a>
+          </div>
+        </div>
+      </div>      
+      <div id="popupPaid2" class="popupPaid popupPaid-mk popupPaid-mkreg disabled">
+        <div class="popupPaid__wrap popupPaid-mk__wrap popupPaid-mkreg__wrap animated bounceOutUp">
+          <div id="popupPaid-close" class="popup-close">
+            <span class="cross-line cross--topper"></span>
+            <span class="cross-line cross--bottom"></span>
+          </div>
+          <div class="sertif__time">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="clock" id="clock" viewBox="0 0 24 24" ><g transform="translate(-600 -2025)"><path d="M621.117 2042.299a10.53 10.53 0 0 1-3.856 3.848 10.319 10.319 0 0 1-5.285 1.419c-1.43 0-2.794-.276-4.093-.84-1.298-.565-2.42-1.308-3.357-2.247-.938-.94-1.685-2.073-2.243-3.376a10.355 10.355 0 0 1-.826-4.111c0-1.905.467-3.668 1.403-5.28a10.536 10.536 0 0 1 3.843-3.85 10.239 10.239 0 0 1 5.272-1.418c1.902 0 3.671.476 5.286 1.419a10.563 10.563 0 0 1 3.856 3.849c.944 1.615 1.416 3.375 1.416 5.28 0 1.905-.469 3.68-1.416 5.307zm1.925-9.973c-1.265-2.952-3.415-5.098-6.39-6.368a11.79 11.79 0 0 0-4.672-.958c-1.627 0-3.173.321-4.658.958-2.95 1.266-5.11 3.412-6.377 6.368a11.69 11.69 0 0 0-.945 4.66c0 1.629.31 3.194.945 4.675 1.267 2.956 3.427 5.115 6.377 6.38 1.485.638 3.031.959 4.658.959a11.8 11.8 0 0 0 4.672-.958c2.974-1.27 5.124-3.43 6.39-6.381a11.75 11.75 0 0 0 .958-4.674c0-1.628-.32-3.175-.958-4.66z"></path></g><g transform="translate(-600 -2025)"><path d="M612.38 2037.258v-6.55a.716.716 0 0 0-.709-.708c-.354 0-.671.316-.671.708v6.651c0 .013.024.064.024.101a.676.676 0 0 0 .184.57l3.649 3.78a.677.677 0 0 0 .94 0 .7.7 0 0 0 0-.986z"></path></g><!-- Code injected by live-server -->
+            </svg>
+            <span>23.02 | Суббота в 19:00</span>
+          </div>
+          <h3 class="popupPaid__title popupPaid-mk__title">Кухня настоящего эгоиста</h3>
+          <p>Осталось мест: <span class="popupPaid-mk--accent">5</span></p>
+          <div class="popupPaid-mk__sum">4950 руб</div>
+          <div class="popupPaid-mk__qa">Регистрация сертификата</div>
+          <form action="#">
+            <div class="cart-data">
+              <div class="cart-data__input cart-data__input--width">
+                <input type="text" name="number-sert" placeholder="Номер сертификата" required="">
+              </div>
+              <div class="cart-data__input">
+                <input type="text" name="name" placeholder="Имя*" required="">
+              </div>
+              <div class="cart-data__input">
+                <input type="text" name="sername" placeholder="Фамилия*" required="">
+              </div>
+              <div class="cart-data__input">
+                <input class="phone-mask" type="text" name="phone" placeholder="+7 (">
+              </div>
+              <div class="cart-data__input">
+                <input class="invalid" type="email" name="email" placeholder="E-mail*" required="">
+                <span class="cart-data__wrong">E-mail введен не верно</span>
+              </div>
+              <div class="popupPaid-mk__btns">
+                <button type="button" class="btn btn--green">Зарегистрироваться</button>
+              </div>
+            </div>
+          </form>
+          
+        </div>
+      </div> 
+    <header>
+      <div class="top-panel">
+          <div class="content">
+              <div class="phone">
+                  <a href="tel:+74995770143">
+      <span class="fa-phone"></span>
+      <span>+7(499) 577-01-43</span>
+  </a>
+              </div>
+              <div class="email">
+                  <a href="mailto:welcome@delgusto.ru">
+      <span class="fa-envelope-o"></span>
+      <span>welcome@delgusto.ru</span>
+  </a>            </div>
+              <div class="social">
+          
+  <a href="https://www.facebook.com/delgustoaccademia/" target="_blank" class="icon fa-facebook rg-facebook"></a>
+  <a href="https://vk.com/delgustoaccademia" target="_blank" class="icon fa-telegram rg-telegram"></a>
+  <a href="https://www.instagram.com/delgustoaccademia/" target="_blank" class="icon fa-instagram rg-instagram"></a>            </div>
+              <div class="logo">
+                  <a href="/">
+            <img src="bitrix/templates/delGusto/images/logo.png" alt="Logo"></a>
+              </div>
+          </div>
+          <div class="clear"></div>
+      </div>
+      <nav>
+          <div class="menu">
+              <div class="nav-menu">
+                  <div class="logo">
+                      <a href="/">
+                          <img src="/bitrix/templates/delGusto/images/logo.png" alt="Logo"></a>
+                  </div>
+                  
+      <ul class="menu-list closed">
+          <li class="home mobile">
+              <a href="/" title="Главная страница">
+                  <span class="icon-img"></span>
+                  <span class="name">Главная</span>
+              </a>
+          </li>
+                    <li class="podarok-korziny">
+                  <a href="/services/podarochnye-korziny/?utm_source=promo-ny&amp;utm_medium=top-menu&amp;utm_campaign=podarochnue_korzinu" title="ПОДАРОЧНЫЕ КОРЗИНЫ">
+                      <span class="icon-img"></span>
+                      <span class="name">ПОДАРОЧНЫЕ КОРЗИНЫ</span>
+                  </a>
+              </li>
+                    <li class="calendar">
+                  <a href="/schedule/" title="РАСПИСАНИЕ">
+                      <span class="icon-img"></span>
+                      <span class="name">РАСПИСАНИЕ</span>
+                  </a>
+              </li>
+                    <li class="chinese-food">
+                  <a href="/gift/" title="ПОДАРОЧНЫЙ СЕРТИФИКАТ">
+                      <span class="icon-img"></span>
+                      <span class="name">ПОДАРОЧНЫЙ СЕРТИФИКАТ</span>
+                  </a>
+              </li>
+                    <li class="users">
+                  <a href="/services/kulinarnye-master-klassy" title="МАСТЕР<br>КЛАССЫ">
+                      <span class="icon-img"></span>
+                      <span class="name">МАСТЕР<br>КЛАССЫ</span>
+                  </a>
+              </li>
+                    <li class="floating-balloons">
+                  <a href="/services/provedenie-korporativov/" title="ПРАЗДНИКИ и корпоративы">
+                      <span class="icon-img"></span>
+                      <span class="name">ПРАЗДНИКИ и корпоративы</span>
+                  </a>
+              </li>
+                    <li class="location-mark">
+                  <a href="/services/vyezdnye-meropriyatiya/" title="ВЫЕЗДНЫЕ МЕРОПРИЯТИЯ">
+                      <span class="icon-img"></span>
+                      <span class="name">ВЫЕЗДНЫЕ МЕРОПРИЯТИЯ</span>
+                  </a>
+              </li>
+                    <li class="phone-book">
+                  <a href="/about/contacts/" title="КОНТАКТЫ">
+                      <span class="icon-img"></span>
+                      <span class="name">КОНТАКТЫ</span>
+                  </a>
+              </li>
+            </ul>
+                  <div id="bx_basketFKauiI" class="bx-basket bx-opener">
+      <div class="mobile-button">
+      </div>
+      <!--'start_frame_cache_bx_basketFKauiI'--><div class="login">        <div class="link">
+              <span class="fa-signin"></span>
+                                        <a class="auth" href="/login/?login=yes&amp;backurl=%2Fgift%2F">Войти</a>
+                  <a class="reg" href="/login/?register=yes&amp;backurl=%2Fgift%2F">Регистрация</a>
+                </div>
+    </div>
+  <div class="top-basket">        <a href="/personal/order/make/">
+              <div class="icon-img">
+                  <span class="quantity">2</span>
+              </div>
+              <span class="name">Корзина</span>
+              </a></div>
+  <!--'end_frame_cache_bx_basketFKauiI'--></div>
+              </div>
+          </div>
+      </nav>
+    </header>
+
+
+    <section class="cart">
+      <div class="wrap">
+        <form action="#">
+          <div class="cart__main">
+            <div class="cart__title cart__title--center">Корзина</div>
+            <div class="cart__block">
+              <div class="cart__head">
+                <div class="cart-item__img"></div>
+                <div class="cart-item__description"></div>
+                <div class="cart-item__price">Стоимость</div>
+                <div class="cart-item__counter">Количество</div>
+                <div class="cart-item__total">Итого</div>
+                <div class="cart-item__cross"></div>
+              </div>
+              <div class="cart__items">
+                <div class="cart-item">
+                  <div class="cart-item__img">
+                    <img src="img/cart-img.png" alt="Сертификат">
+                  </div>
+                  <div class="cart-item__description">
+                    <div class="cart-item__name">
+                      <a href="#">
+                        Кухня настоящего эгоиста! (23.02)
+                      </a>
+                    </div>
+                    <div class="cart-item__descr">Сертификат на мастер-класс</div>
+                  </div>
+                  <div class="cart-item__price">1 300 руб.</div>
+                  <div class="cart-item__counter">
+                    <input type='button' value='-' class='qtyminus sertif__sign' field='quantity' >
+                    <input type='text' name='quantity' value='0' class='qty sertif__num' size="1"  maxlength="2" onkeydown="size=value.length||2" onkeyup="onkeydown()" onkeypress="onkeydown()" onchange="onkeydown()">
+                    <input type='button' value='+' class='qtyplus sertif__sign' field='quantity' >
+                  </div>
+                  <div class="cart-item__total">
+                    <span class="cart-item__total-txt">Итоговая стоимость:</span>
+                    <span>5 700 руб.</span>
+                  </div>
+                  <div class="cart-item__cross">
+                    <a href="#">
+                      <svg id="cross" xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22">
+                        <path d="M11.2444 9.1397L14.7223 5.66176C15.2343 5.1498 16.1014 5.18688 16.6591 5.74457C17.2168 6.30226 17.2538 7.16938 16.7419 7.68133L13.2639 11.1593L16.7188 14.6142C17.2274 15.1227 17.1846 15.9901 16.6232 16.5515C16.0618 17.1129 15.1944 17.1558 14.6858 16.6472L11.2309 13.1923L7.75296 16.6702C7.24101 17.1822 6.37388 17.1451 5.81619 16.5874C5.2585 16.0297 5.22143 15.1626 5.73339 14.6507L9.21132 11.1727L5.75642 7.71783C5.24785 7.20926 5.29069 6.34188 5.8521 5.78047C6.41351 5.21906 7.28089 5.17623 7.78946 5.68479L11.2444 9.1397Z" />
+                        </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="cart-item">
+                  <div class="cart-item__img">
+                    <img src="img/cart-img.png" alt="Сертификат">
+                  </div>
+                  <div class="cart-item__description">
+                    <div class="cart-item__name">
+                      <a href="#">
+                        Сертификат на кулинарный мастер класс (8.02)
+                      </a>
+                    </div>
+                    <div class="cart-item__descr">Сертификат на мастер-класс</div>
+                  </div>
+                  <div class="cart-item__price">1 300 руб.</div>
+                  <div class="cart-item__counter">
+                    <input type='button' value='-' class='qtyminus sertif__sign' field='quantity' >
+                    <input type='text' name='quantity' value='0' class='qty sertif__num' size="1"  maxlength="2" onkeydown="size=value.length||2" onkeyup="onkeydown()" onkeypress="onkeydown()" onchange="onkeydown()">
+                    <input type='button' value='+' class='qtyplus sertif__sign' field='quantity' >
+                  </div>
+                  <div class="cart-item__total">
+                    <span class="cart-item__total-txt">Итоговая стоимость:</span>
+                    <span>5 700 руб.</span>
+                  </div>
+                  <div class="cart-item__cross">
+                    <a href="#">
+                      <svg id="cross" xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22">
+                        <path d="M11.2444 9.1397L14.7223 5.66176C15.2343 5.1498 16.1014 5.18688 16.6591 5.74457C17.2168 6.30226 17.2538 7.16938 16.7419 7.68133L13.2639 11.1593L16.7188 14.6142C17.2274 15.1227 17.1846 15.9901 16.6232 16.5515C16.0618 17.1129 15.1944 17.1558 14.6858 16.6472L11.2309 13.1923L7.75296 16.6702C7.24101 17.1822 6.37388 17.1451 5.81619 16.5874C5.2585 16.0297 5.22143 15.1626 5.73339 14.6507L9.21132 11.1727L5.75642 7.71783C5.24785 7.20926 5.29069 6.34188 5.8521 5.78047C6.41351 5.21906 7.28089 5.17623 7.78946 5.68479L11.2444 9.1397Z" />
+                      </svg>
+                    </a>
+                      
+                  </div>
+                </div>
+
+                
+              </div>
+              <div class="cart__bottom">
+                  <div class="cart-total__text">Итого</div>
+                  <div class="cart-total__dots"></div>
+                  <div class="cart-total__sum">13 220 руб.</div>
+              </div>
+            </div>
+            <div class="cart__block cart__data">
+              <div class="cart__title">Ваши данные</div>
+              <div class="cart-data">
+                <div class="cart-data__input">
+                  <input type="text" name="name" placeholder="Имя*" required>
+                </div>
+                <div class="cart-data__input">
+                  <input type="text" name="sername" placeholder="Фамилия*" required>
+                </div>
+                <div class="cart-data__input">
+                  <input class="phone-mask" type="text" name="phone" placeholder="+7 (">
+                </div>
+                <div class="cart-data__input">
+                  <input class="invalid" type="email" name="email" placeholder="E-mail*" required>
+                  <span class="cart-data__wrong">E-mail введен не верно</span>
+                </div>
+                <div class="promokod__text">У вас есть промокод?</div>
+                <div class="cart-data__input cart-data__input--promokod">
+                  <input type="text" class="promokod invalid" name="promokod" placeholder="Введите промокод (ПОДАРОК)">
+                  <span class="cart-data__wrong">Ваш промокод не действителен</span>
+                </div>
+                <button type="button" class="btn promokod__allow valid">Применить</button>
+              </div>
+              
+            </div>
+            <div class="cart-total">
+              <div class="cart__title">
+                <span>Итого</span>
+                <span class="cart__subtitle">5 товаров</span>
+              </div>
+              <div class="cart-total__line">
+                <div class="cart-total__text">На сумму</div>
+                <div class="cart-total__dots"></div>
+                <div class="cart-total__sum">13 870 руб.</div>
+              </div>
+              <div class="cart-total__line">
+                <div class="cart-total__text">Скидка по промокоду</div>
+                <div class="cart-total__dots"></div>
+                <div class="cart-total__sum">650 руб.</div>
+              </div>
+              <div class="cart-total__line">
+                <div class="cart-total__text">Итого</div>
+                <div class="cart-total__dots"></div>
+                <div class="cart-total__sum">13 220 руб.</div>
+              </div>
+
+              <div class="cart-total__argee">Нажимая на кнопку “Оформить заказ” я даю согласие на
+                <a href="#" target="_blank">обработку персональных данных</a>
+              </div>
+              <a href="#" class="btn btn--red btn--popup">Оформить заказ</a>
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+ 
+
+
+
+
+
+
+    <footer class="footer">
+      <div class="wrap">
+        
+      </div>
+    </footer>
+
+    
+    <script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+    <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+    <script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1548792518','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'e61e33d528347119a204e43dea35d6dd'});</script>
+    <script type="text/javascript" src="bitrix/js/main/core/core.js"></script>
+    <script type="text/javascript" src="bitrix/js/main/core/core_promise.js"></script>
+    <script type="text/javascript" src="bitrix/js/main/polyfill/promise/js/promise.js"></script>
+    <script type="text/javascript" src="bitrix/js/main/loadext/loadext.js"></script>
+    <script type="text/javascript" src="bitrix/js/main/loadext/extension.js"></script>
+    <script type="text/javascript" src="bitrix/js/main/core/core_ajax.js"></script>
+    <script type="text/javascript">
+              (function () {
+                "use strict";
+    
+                var counter = function ()
+                {
+                  var cookie = (function (name) {
+                    var parts = ("; " + document.cookie).split("; " + name + "=");
+                    if (parts.length == 2) {
+                      try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+                      catch (e) {}
+                    }
+                  })("BITRIX_CONVERSION_CONTEXT_s1");
+    
+                  if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+                    return;
+    
+                  var request = new XMLHttpRequest();
+                  request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+                  request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                  request.send(
+                    "SITE_ID="+encodeURIComponent("s1")+
+                    "&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+                    "&HTTP_REFERER="+encodeURIComponent(document.referrer)
+                  );
+                };
+    
+                if (window.frameRequestStart === true)
+                  BX.addCustomEvent("onFrameDataReceived", counter);
+                else
+                  BX.ready(counter);
+              })();
+            </script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/youtuber.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/main.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/components/bitrix/sale.basket.basket.line/line/script.js"></script>
+
+    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="js/sertif.js"></script>
+    
+    <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "78c324370ca8d07c953394fa28639787"]); _ba.push(["host", "delgusto.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+    
+    
+    
+
+
+
+  </body>
+  <!-- END body-->
+</html>
