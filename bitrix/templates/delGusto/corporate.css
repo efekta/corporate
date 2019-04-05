@@ -238,10 +238,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*price*/
+.price {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	/*justify-content: space-around;*/
+}
 
-
-
-
+.price__list {
+	width: 65%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	-moz-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	-o-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+.price__pic {
+	width: 35%;
+}
 
 
 
