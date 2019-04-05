@@ -387,6 +387,79 @@ button.btn {
 	display: inline-block;
 }
 
+/* gallery */
+.gallery {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.section-gallery > .text-center {
+	width: 40%;
+	margin: auto;
+}
+.gallery a {
+	display: block;
+	width: 33.3333%;
+}
+.gallery a img {
+	height: 100%;
+}
+.section-gallery p {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.chef-wrapp {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.chef-item {
+	position: relative;
+}
+.chef-content {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.chef-content p {
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+/*linear-gradient()*/
+
+
+
+
+
+
+
+
 
 /*adaptive*/
 @media only screen and (max-width: 1170px) and (min-width: 320px) {

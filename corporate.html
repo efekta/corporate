@@ -20,6 +20,7 @@
     <link href="bitrix/templates/delGusto/js/youtuber.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/template_styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link rel="stylesheet" href="css/sertif.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="bitrix/templates/delGusto/corporate.css" type="text/css">
     <title>Подарочный сертификат на кулинарные мастер-классы | №1 Accademia del Gusto </title>
   </head>
@@ -423,10 +424,10 @@
                         <form action="#" method="POST">
                             <div class="user-input">
                                 <div class="i-w">
-                                    <input type="text">
+                                    <input type="text" placeholder="Имя">
                                 </div>
                                 <div class="i-w">
-                                    <input type="text">
+                                    <input type="text" placeholder="Телефон">
                                 </div>
                                 <div class="i-w">
                                     <button type="submit" class="btn btn--red">
@@ -443,17 +444,64 @@
 	</section>
 
 
+    <section class="section section-gallery">
+        <div class="text-center">
+            <h2 class="title title__inner">Фотографии с наших мероприятий</h2>
+            <p>Яркие впечатления, незабываемые эмоции и блюда Высокой кухни, приготовленные своими руками.</p>
+        </div>
+            <div class="gallery">
+                <a href="img/11.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="img/11.jpg" alt="pic" />
+                </a>
+
+                <a href="img/22.jpg" data-fancybox="gallery" data-caption="Caption #2">
+                    <img src="img/22.jpg" alt="pic" />
+                </a>
+                <a href="img/33.jpg" data-fancybox="gallery" data-caption="Caption #3">
+                    <img src="img/33.jpg" alt="pic" />
+                </a>
+
+                <a href="img/44.jpg" data-fancybox="gallery" data-caption="Caption #4">
+                    <img src="img/44.jpg" alt="pic" />
+                </a>
+                <a href="img/55.jpg" data-fancybox="gallery" data-caption="Caption #5">
+                    <img src="img/55.jpg" alt="pic" />
+                </a>
+
+                <a href="img/66.jpg" data-fancybox="gallery" data-caption="Caption #6">
+                    <img src="img/66.jpg" alt="pic" />
+                </a>
+            </div>
+        </div>
+    </section>
 
 
+    <section class="section section-chef">
+        <div class="container text-center">
+            <h2 class="title title__inner">Наши шеф-повара</h2>
+
+            <div class="chef-wrapp">
+                <div class="chef-item">
+                    <img src="img/Marko.jpg" alt="Marko">
+                    <div class="chef-content">
+                        <p>Марко Праццоли</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
 
     
     
     
+<script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-1.12.4.min.js"></script>
+<!-- <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-migrate-1.4.1.min.js"></script> -->
+<script type="text/javascript" src="bitrix/templates/delGusto/js/owl.carousel.min.js"></script>
 
-
-
+<script src="libs/fancybox/jquery.fancybox.js"></script>
+<script src="js/corporate.js"></script>
   </body>
   <!-- END body-->
 </html>
