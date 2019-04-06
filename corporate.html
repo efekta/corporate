@@ -12,6 +12,9 @@
     <!-- <link href="bitrix/templates/delGusto/css/owl.carousel.css" type="text/css"  data-template-style="true"  rel="stylesheet" /> -->
     <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css">
     <link href="bitrix/templates/delGusto/services.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/standart-typhography.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/form.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
@@ -22,6 +25,7 @@
     <link href="bitrix/templates/delGusto/js/youtuber.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/template_styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link rel="stylesheet" href="css/sertif.css">
+
     <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="bitrix/templates/delGusto/corporate.css" type="text/css">
     <title>Подарочный сертификат на кулинарные мастер-классы | №1 Accademia del Gusto </title>
@@ -811,17 +815,48 @@
     <section class="section section-order">
         <div class="container text-center">
             <h2 class="title title__inner">Оплатить мероприятие</h2>
+            <div class="order-wrapp-form">
+                <form action="#" method="POST" class="wrapp-form">
+                    <div class="form-wrapp-box">
+                        <div class="wrapp-box">
+                            <div class="i-w">
+                                <input type="text" placeholder="Имя">
+                            </div>
+                            <div class="i-w">
+                                <input type="text" placeholder="Компания">
+                            </div>
+                            <div class="i-w">
+                                <input id="datepicker" type="text" placeholder="Дата мероприятия">
+                            </div>
+                            <div class="i-w">
+                                <input type="text" placeholder="Сумма">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
 
 
 <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-1.12.4.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+<script src="libs/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
 <!-- <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-migrate-1.4.1.min.js"></script> -->
 <!-- <script type="text/javascript" src="bitrix/templates/delGusto/js/owl.carousel.min.js"></script> -->
 <script src="libs/owlcarousel/owl.carousel.min.js"></script>
 <script src="libs/fancybox/jquery.fancybox.js"></script>
 <!-- <script src="libs/owl.carousel/owl.carousel.min.js"></script> -->
+<script src="js/jquery.maskedinput.min.js"></script>
+
+<script src="js/datapicker_ru.js"></script>
 <script src="js/corporate.js"></script>
-  </body>
-  <!-- END body-->
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+</body>
+<!-- END body-->
 </html>
