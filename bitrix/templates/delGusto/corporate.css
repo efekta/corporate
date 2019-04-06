@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*program*/
 .section-program {
-	background: #F8EFE5;
+	background: rgba(238, 215, 191, 0.4);
 }
 .program {
 	display: -webkit-flex;
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 40px 0 40px 40px;
 }
 .form-content {
-    max-width: 600px;
+    max-width: 640px;
     margin-right: auto;
 	text-align: left;
 }
@@ -590,7 +590,7 @@ button.btn {
 /* accordion */
 
 .section-accordion {
-	background: #F8EFE5;
+	background: rgba(238, 215, 191, 0.4);
 }
 .accordion-container {
 	padding-bottom: 60px;
@@ -692,6 +692,43 @@ button.btn {
     text-align: center;
 }
 
+
+.owl-chef-content {
+	flex-direction: column;
+	justify-content: flex-end;
+    align-items: center;
+	text-align: center;
+    background: linear-gradient(180deg, rgba(238, 215, 191, 0.3) -7.44%, #E9BF92 90.5%);
+	box-shadow: 0px 6px 12px rgba(31, 31, 31, 0.05);
+}
+.owl-chef-content .svg-wrap,
+.owl-chef-content .svg-ico {
+	width: 70px;
+	height: 70px;
+}
+.owl-chef-content p {
+	font-size: 26px;
+	line-height: 32px;
+}
+.owl-chef-content__i {
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	color: #fff;
+}
+.owl-chef-content__i a {
+	color: #fff;
+}
+.owl-chef-content__i span {
+	display: block;
+}
+
+
+/* order */
+.section-order {
+	background: rgba(238, 215, 191, 0.4);
+}
 
 
 

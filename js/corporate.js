@@ -14,7 +14,7 @@ $(document).ready(function($){
 	            nav:true
 	        },
 	        600:{
-	            items:3,
+	            items:1,
 	            nav:false
 	        },
 	        1000:{
@@ -31,11 +31,11 @@ $(document).ready(function($){
 	    responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:1,
+	            items:2,
 	            nav:true
 	        },
 	        600:{
-	            items:3,
+	            items:1,
 	            nav:false
 	        },
 	        1000:{
