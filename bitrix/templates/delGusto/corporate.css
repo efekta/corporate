@@ -431,6 +431,8 @@ button.btn {
 }
 .chef-item {
 	position: relative;
+	cursor: pointer;
+	transition: all .3s ease .3s;
 }
 .chef-item:hover .chef-content {
 	background: linear-gradient(0deg, #E9BF92, #E9BF92);
@@ -446,12 +448,18 @@ button.btn {
 	top: 127px;
 	padding: 0 15px;
 }
+/*.chef-item:hover .chef-content__i {
+	top: 0;
+}*/
 .chef-content {
 	position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    /*transition: all .3s ease .3s;*/
+    background: linear-gradient(180.47deg, rgba(233, 191, 146, 0) 35.9%, #E9BF92 92.01%);
+	box-shadow: 0px 6px 12px rgba(31, 31, 31, 0.05);
 }
 .chef-content p {
 	color: #fff;
@@ -467,9 +475,11 @@ button.btn {
 .chef-content__i {
 	position: absolute;
     top: 0;
+    /*top: 100%;*/
     left: 0;
     width: 100%;
     height: 100%;
+    /*transition: all .3s ease .3s;*/
 }
 .chef-content__i_wrapp {
 	position: absolute;
@@ -477,8 +487,8 @@ button.btn {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180.47deg, rgba(233, 191, 146, 0) 35.9%, #E9BF92 92.01%);
-	box-shadow: 0px 6px 12px rgba(31, 31, 31, 0.05);
+/*    background: linear-gradient(180.47deg, rgba(233, 191, 146, 0) 35.9%, #E9BF92 92.01%);
+	box-shadow: 0px 6px 12px rgba(31, 31, 31, 0.05);*/
 }
 .chef-content__i_wrapp p {
 	opacity: 0;
