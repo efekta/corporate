@@ -9,7 +9,9 @@
     <link href="bitrix/js/main/core/css/core.css" type="text/css"  rel="stylesheet" />
     <link href="include/mk/mk.css" type="text/css"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/css/font-awesome.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
-    <link href="bitrix/templates/delGusto/css/owl.carousel.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <!-- <link href="bitrix/templates/delGusto/css/owl.carousel.css" type="text/css"  data-template-style="true"  rel="stylesheet" /> -->
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
     <link href="bitrix/templates/delGusto/services.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/standart-typhography.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/form.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
@@ -240,10 +242,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="one-box one-box__pic" style="background: url('img/banner.jpg') no-repeat center bottom; background-size: cover;"></div>
-<!-- 			<div class="one-box one-box__pic">
-				<img src="img/banner.jpg" alt="pic">
-			</div> -->
+			<div class="one-box one-box__pic" 
+            style="background: url('img/banner.jpg') 
+            no-repeat center bottom; background-size: cover;">
+            </div>
 		</div>
 	</section>
 	
@@ -479,18 +481,38 @@
     <section class="section section-chef">
         <div class="container text-center">
             <h2 class="title title__inner">Наши шеф-повара</h2>
-
             <div class="chef-wrapp">
                 <a class="chef-item">
                     <img src="img/Marko.jpg" alt="Marko">
                     <div class="chef-content">
                         <p class="">Марко Праццоли</p>
-                        <div class="chef-content__i">
-                            <div class="chef-content__i_wrapp">
-                                <p>Итальянский шеф-повар из города Брешиа, что на севере Италии. Он работает в ресторанном бизнесе уже почти тридцать лет, девять из которых 
-                                в Москве. Готовить для него – это скорее удовольствие, чем работа: он был владельцем несколько успешных ресторанов</p>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="chef-content__i">
+                        <p class="autor">Марко Праццоли</p>
+                        <p>Итальянский шеф-повар из города Брешиа, что на севере Италии. Он работает в ресторанном бизнесе уже почти тридцать лет, девять из которых 
+                        в Москве. Готовить для него – это скорее удовольствие, чем работа: он был владельцем несколько успешных ресторанов</p>
+                    </div>
+                </a>
+                <a class="chef-item">
+                    <img src="img/Marko.jpg" alt="Marko">
+                    <div class="chef-content">
+                        <p class="">Марко Праццоли</p>
+                    </div>
+                    <div class="chef-content__i">
+                        <p class="autor">Марко Праццоли</p>
+                        <p>Итальянский шеф-повар из города Брешиа, что на севере Италии. Он работает в ресторанном бизнесе уже почти тридцать лет, девять из которых 
+                        в Москве. Готовить для него – это скорее удовольствие, чем работа: он был владельцем несколько успешных ресторанов</p>
+                    </div>
+                </a>
+                <a class="chef-item">
+                    <img src="img/Marko.jpg" alt="Marko">
+                    <div class="chef-content">
+                        <p class="">Марко Праццоли</p>
+                    </div>
+                    <div class="chef-content__i">
+                        <p class="autor">Марко Праццоли</p>
+                        <p>Итальянский шеф-повар из города Брешиа, что на севере Италии. Он работает в ресторанном бизнесе уже почти тридцать лет, девять из которых 
+                        в Москве. Готовить для него – это скорее удовольствие, чем работа: он был владельцем несколько успешных ресторанов</p>
                     </div>
                 </a>
             </div>
@@ -498,15 +520,168 @@
     </section>
 
     
+    <section class="section section-reviews">
+        <div class="container text-center">
+            <h2 class="title title__inner">Отзывы</h2>
+
+            <div class="reviews owl-carousel owl-theme">
+                <div class="item reviews__item">
+                    <div class="head-review">
+                        <span>33nataliaa</span>
+                        <div class="review-author" style="background-image: url(img/natalia-a.jpg);">
+                            <img src="img/natalia-a.jpg" alt="фото автора" width="60" height="60" class="author-avatar">
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>
+                            Все продумано до мелочей и очень грамотно распределено. Несмотря на большое количество людей, занятие нашлось каждому и то, что приготовили получилось очень вкусно. Не очень сложно, зато весело Очень крутое место!
+                        </p>
+                    </div>
+                    <div class="footer-review">
+                        <p>Отзыв с сайта <a href="#">tripadvisor.ru</a></p>
+                        <p>26/02/2019</p>
+                    </div>
+                </div>
+                <div class="item reviews__item">
+                    <div class="head-review">
+                        <span>33nataliaa</span>
+                        <div class="review-author" style="background-image: url(img/natalia-a.jpg);">
+                            <img src="img/natalia-a.jpg" alt="фото автора" width="60" height="60" class="author-avatar">
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>
+                            Все продумано до мелочей и очень грамотно распределено. Несмотря на большое количество людей, занятие нашлось каждому и то, что приготовили получилось очень вкусно. Не очень сложно, зато весело Очень крутое место!
+                        </p>
+                    </div>
+                    <div class="footer-review">
+                        <p>Отзыв с сайта <a href="#">tripadvisor.ru</a></p>
+                        <p>26/02/2019</p>
+                    </div>
+                </div>
+                <div class="item reviews__item">
+                    <div class="head-review">
+                        <span>33nataliaa</span>
+                        <div class="review-author" style="background-image: url(img/natalia-a.jpg);">
+                            <img src="img/natalia-a.jpg" alt="фото автора" width="60" height="60" class="author-avatar">
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>
+                            Все продумано до мелочей и очень грамотно распределено. Несмотря на большое количество людей, занятие нашлось каждому и то, что приготовили получилось очень вкусно. Не очень сложно, зато весело Очень крутое место!
+                        </p>
+                    </div>
+                    <div class="footer-review">
+                        <p>Отзыв с сайта <a href="#">tripadvisor.ru</a></p>
+                        <p>26/02/2019</p>
+                    </div>
+                </div>
+                <div class="item reviews__item">
+                    <div class="head-review">
+                        <span>33nataliaa</span>
+                        <div class="review-author" style="background-image: url(img/natalia-a.jpg);">
+                            <img src="img/natalia-a.jpg" alt="фото автора" width="60" height="60" class="author-avatar">
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>
+                            Все продумано до мелочей и очень грамотно распределено. Несмотря на большое количество людей, занятие нашлось каждому и то, что приготовили получилось очень вкусно. Не очень сложно, зато весело Очень крутое место!
+                        </p>
+                    </div>
+                    <div class="footer-review">
+                        <p>Отзыв с сайта <a href="#">tripadvisor.ru</a></p>
+                        <p>26/02/2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
-    
+    <section class="section section-accordion">
+        <div class="container text-center">
+            <h2 class="title title__inner">Вопросы - ответы</h2>
+            <div class="accordion-container">
+                <div class="set">
+                    <span class="set-item">
+                        <span class="set-title">Сколько стоит?</span>
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quibusdam ducimus laboriosam, quam quisquam, sapiente beatae dolor temporibus quia, natus assumenda sed sunt eaque et illum voluptas aut neque minus!</p>
+                    </div>
+                </div>
+                <div class="set">
+                    <span class="set-item">
+                        <span class="set-title">Что входит в стоимость?</span>
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quibusdam ducimus laboriosam, quam quisquam, sapiente beatae dolor temporibus quia, natus assumenda sed sunt eaque et illum voluptas aut neque minus!</p>
+                    </div>
+                </div>
+                <div class="set">
+                    <span class="set-item">
+                        <span class="set-title">Как проходит мероприятие?</span>
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quibusdam ducimus laboriosam, quam quisquam, sapiente beatae dolor temporibus quia, natus assumenda sed sunt eaque et illum voluptas aut neque minus!</p>
+                    </div>
+                </div>
+                <div class="set">
+                    <span class="set-item">
+                        <span class="set-title">Какие дополнительные сборы?</span>
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quibusdam ducimus laboriosam, quam quisquam, sapiente beatae dolor temporibus quia, natus assumenda sed sunt eaque et illum voluptas aut neque minus!</p>
+                    </div>
+                </div>
+                <div class="set">
+                    <span class="set-item">
+                        <span class="set-title">Где посмотреть меню?</span>
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quibusdam ducimus laboriosam, quam quisquam, sapiente beatae dolor temporibus quia, natus assumenda sed sunt eaque et illum voluptas aut neque minus!</p>
+                    </div>
+                </div>
+                <div class="set">
+                    <span class="set-item">
+                        <span class="set-title">Какие можете предложить развлечения?</span>
+                        <span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quibusdam ducimus laboriosam, quam quisquam, sapiente beatae dolor temporibus quia, natus assumenda sed sunt eaque et illum voluptas aut neque minus!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-link">
+                <a href="#" class="btn btn--red btn--popup">Заказать корпоратив</a>
+            </div>
+        </div>
+    </section>  
     
 <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-1.12.4.min.js"></script>
 <!-- <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-migrate-1.4.1.min.js"></script> -->
-<script type="text/javascript" src="bitrix/templates/delGusto/js/owl.carousel.min.js"></script>
-
+<!-- <script type="text/javascript" src="bitrix/templates/delGusto/js/owl.carousel.min.js"></script> -->
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
 <script src="libs/fancybox/jquery.fancybox.js"></script>
+<!-- <script src="libs/owl.carousel/owl.carousel.min.js"></script> -->
 <script src="js/corporate.js"></script>
   </body>
   <!-- END body-->
