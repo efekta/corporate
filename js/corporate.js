@@ -31,7 +31,7 @@ $(document).ready(function($){
 	    responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:2,
+	            items:1.5,
 	            nav:false
 	        },
 	        600:{
@@ -43,6 +43,11 @@ $(document).ready(function($){
 	            nav:true,
 	            loop:false
 	        }
+	        // 1200:{
+	        //     items:4,
+	        //     nav:true,
+	        //     loop:false
+	        // }
 	    }
 	})
 	// accordion

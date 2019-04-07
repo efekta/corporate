@@ -557,7 +557,7 @@ button.btn {
 }
 .reviews .owl-nav .owl-prev {
 	position: absolute;
-	left: -50px;
+	left: 0;
     border-radius: 50%;
     background-color: #fff !important;
 	box-shadow: 3px 7px 4px rgba(0, 0, 0, 0.2);
@@ -569,7 +569,7 @@ button.btn {
 }
 .reviews .owl-nav .owl-next {
 	position: absolute;
-	right: -50px;
+	right: 0;
 	border-radius: 50%;
 	background-color: #fff !important;
 	box-shadow: 3px 7px 4px rgba(0, 0, 0, 0.2);
@@ -622,7 +622,8 @@ button.btn {
 	content: "";
 	position: absolute;
     top: 10px;
-    left: -70px;
+    left: 0;
+    /*left: -70px;*/
     background: url('../../../img/kisspng.png') no-repeat;
     width: 170px;
     height: 113px;
@@ -640,7 +641,7 @@ button.btn {
 	content: "";
 	position: absolute;
     bottom: 105px;
-    right: -160px;
+    right: 0;
     background: url('../../../img/kitchen.png') no-repeat;
     width: 141px;
     height: 115px;
@@ -700,7 +701,7 @@ button.btn {
 }
 .chef-owl .owl-nav .owl-prev {
 	position: absolute;
-	left: -20px;
+	left: 0;
     border-radius: 50%;
     background-color: #fff !important;
 	box-shadow: 3px 7px 4px rgba(0, 0, 0, 0.2);
@@ -712,7 +713,7 @@ button.btn {
 }
 .chef-owl .owl-nav .owl-next {
 	position: absolute;
-	right: -37px;
+	right: 0;
 	border-radius: 50%;
 	background-color: #fff !important;
 	box-shadow: 3px 7px 4px rgba(0, 0, 0, 0.2);
@@ -786,7 +787,8 @@ button.btn {
 	content: "";
 	position: absolute;
     bottom: -20px;
-    right: -15px;
+    /*right: -15px;*/
+    right: 0;
     background: url('../../../img/photo461858.png') no-repeat;
     width: 250px;
     height: 215px;	
@@ -961,6 +963,14 @@ input:-moz-placeholder {
 
 
 /*adaptive*/
+@media only screen and (max-width: 1240px) and (min-width: 320px) {
+.one-box-wrap {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+}
+
 @media only screen and (max-width: 1170px) and (min-width: 320px) {
 	.container {
 	    width: auto;
@@ -974,7 +984,27 @@ input:-moz-placeholder {
 	    width: auto;
 	    padding: 0 20px;
 	}
-	
+		.section-accordion {
+		position: relative;
+	}
+	.section-accordion::before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background: url('../../../img/15.png');
+		width: 191px;
+		height: 166px;
+	}
+	.accordion-container_img::before {
+		display: none;
+	}
+	.title {
+	    font-family: Calibri;
+	    font-size: 34px;
+	    line-height: 36px;
+	    margin-bottom: 20px;
+	}
 }
 
 @media only screen and (max-width: 960px) and (min-width: 320px) {
@@ -1030,19 +1060,35 @@ input:-moz-placeholder {
 	    width: 45%;
 	}
 	.w50 {
-	    width: 75%;
+	    width: 100%;
 	    margin: 0 auto;
 	}
 	.program {
+		position: relative;
 		-webkit-flex-wrap: wrap;
 		-moz-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
 	}
+
 	.program__item {
 		width: 50%;
 		text-align: center;
+	}
+	.program__item_mob_bg {
+		position: relative;
+	}
+	.program__item_mob_bg::before {
+		content: "";
+	    position: absolute;
+	    top: 0;
+	    right: -100px;
+	    transform: translateX(-50%);
+	    width: 100px;
+	    height: 145px;
+		background: url(../../../img/icons/vbgmob.svg);
+		background-repeat: no-repeat;
 	}
 	.program__item_box_rel::after {
 		display: none;
@@ -1116,21 +1162,6 @@ input:-moz-placeholder {
 	.section-accordion_img::before {
 		display: none;
 	}
-	.section-accordion_img::after {
-		left: 0;
-	}
-	.section-accordion {
-		position: relative;
-	}
-	.section-accordion::before {
-		content: "";
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		background: url('../../../img/15.png');
-		width: 191px;
-		height: 166px;
-	}
 	.section-chef-owl {
 		width: 70%;
 	}
@@ -1152,6 +1183,7 @@ input:-moz-placeholder {
 	.order-i-w input, .order-i-w textarea {
 		margin-bottom: 0;
 	}
+
 	/*Modal*/
 	.modal-body {
 		max-width: 100%;
