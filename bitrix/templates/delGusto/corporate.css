@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
 }
+textarea {
+	border: none;
+	outline: none;
+	resize: none;
+}
 .btn {
     max-width: 290px;
     margin: 0 auto;
@@ -729,6 +734,104 @@ button.btn {
 .section-order {
 	background: rgba(238, 215, 191, 0.4);
 }
+.form-wrapp-box {
+width: 810px;
+margin: auto;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: space-between;
+}
+.wrapp-box {
+	width: 390px;
+}
+.i-w_data {
+	position: relative;
+}
+.i-w_data i {
+	position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.order-i-w {
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	margin-bottom: 25px;
+	margin-right: 0;
+}
+.order-i-w input, .order-i-w textarea {
+	width: 100%;
+	padding: 20px 15px;
+    border-radius: 6px;
+}
+.order-i-w textarea {
+	min-height: 135px;
+	margin-bottom: 0;
+}
+.df {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.df .order-i-w {
+	width: 48%;
+}
+textarea::-webkit-input-placeholder {
+    color: #000;
+}
+ 
+textarea:-moz-placeholder {
+    color: #000;
+}
+input::-webkit-input-placeholder {
+    color: #000;
+}
+ 
+input:-moz-placeholder {
+    color: #000;
+}
+.w320 {
+	width: 320px;
+	margin: auto;
+}
+.form-wrapp-box p {
+	color: #909090;
+	font-size: 12px;
+	line-height: 24px;
+}
+/*Modal*/
+.modal-page-corporate {
+	/*border: 40px solid #fff;*/
+}
+
+.modal-body {
+	width: 650px;
+	margin: auto;
+	min-height: 450px;
+	padding: 57px;
+	border: 40px solid #fff;
+	background: rgba(238, 215, 191, 0.4);
+}
+.modal-title {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.modal-wrapp-form p {
+	color: #909090;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+
+
 
 
 
