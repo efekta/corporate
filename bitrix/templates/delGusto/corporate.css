@@ -279,10 +279,10 @@ textarea {
 	padding: 10px;
 }
 .price__pic {
-	position: relative;
-	border: 8px solid #EED7BF;
-	width: 321px;
-	height: 296px;
+	/*position: relative;*/
+	/*border: 8px solid #EED7BF;*/
+	/*width: 321px;*/
+	/*height: 296px;*/
 }
 .price__pic::before {
 	content: "";
@@ -596,10 +596,38 @@ button.btn {
 /* accordion */
 
 .section-accordion {
+
 	background: rgba(238, 215, 191, 0.4);
+}
+.section-accordion_img {
+	position: relative;
+}
+.section-accordion_img::before {
+	content: "";
+	position: absolute;
+	top: -60px;
+	right: 25px;
+	background: url('../../../img/121.png') no-repeat;
+	width: 120px;
+    height: 120px;
+}
+.section-accordion_img::after {
+	content: "";
+	position: absolute;
+    top: -15px;
+    left: -70px;
+    background: url('../../../img/kisspng.png') no-repeat;
+    width: 161px;
+    height: 110px;
 }
 .accordion-container {
 	padding-bottom: 60px;
+}
+.accordion-container_img {
+	position: relative;
+}
+.accordion-container_img {
+
 }
 .accordion-content {
     display: none;
