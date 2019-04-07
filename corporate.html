@@ -6,13 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="Теги сайта">
     <meta name="description" content="Описание сайта">
+<!--     <link href="bitrix/js/main/core/css/core.css" type="text/css"  rel="stylesheet" />
+    <link href="include/mk/mk.css" type="text/css"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/css/font-awesome.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link href="bitrix/templates/delGusto/services.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/standart-typhography.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/form.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/sertifikat.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/personal.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/chefs.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/rwrp.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/js/youtuber.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link href="bitrix/templates/delGusto/template_styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+    <link rel="stylesheet" href="css/sertif.css"> -->
     <link href="bitrix/js/main/core/css/core.css" type="text/css"  rel="stylesheet" />
     <link href="include/mk/mk.css" type="text/css"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/css/font-awesome.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
-    <!-- <link href="bitrix/templates/delGusto/css/owl.carousel.css" type="text/css"  data-template-style="true"  rel="stylesheet" /> -->
-    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
-
+    <link href="bitrix/templates/delGusto/css/owl.carousel.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/services.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/standart-typhography.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/form.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
@@ -23,7 +35,6 @@
     <link href="bitrix/templates/delGusto/js/youtuber.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link href="bitrix/templates/delGusto/template_styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
     <link rel="stylesheet" href="css/sertif.css">
-
     <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="bitrix/templates/delGusto/corporate.css" type="text/css">
     <title>Подарочный сертификат на кулинарные мастер-классы | №1 Accademia del Gusto </title>
@@ -453,7 +464,7 @@
                                     <input type="text" placeholder="Имя">
                                 </div>
                                 <div class="i-w">
-                                    <input type="text" placeholder="Телефон">
+                                    <input class="phone" type="text" placeholder="Телефон">
                                 </div>
                                 <div class="i-w">
                                     <button type="submit" class="btn btn--red">
@@ -835,7 +846,7 @@
                         </div>
                         <div class="wrapp-box">
                             <div class="i-w order-i-w">
-                                <input type="text" placeholder="Номер телефона">
+                                <input class="phone" type="text" placeholder="Номер телефона">
                             </div>
                             <div class="i-w order-i-w">
                                <textarea placeholder="Комментарий" cols="30"></textarea>
@@ -843,7 +854,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn btn--red btn--popup w320">Оплатить мероприятие</a>
+                        <button type="submit" class="btn btn--red btn--popup">Оплатить мероприятие</button>
                         <p>Нажимая на кнопку "Оплатить мероприятие", вы даете согласие на обработку персональных данных</p>
                     </div>
                 </form>
@@ -852,10 +863,14 @@
     </section>
 
 <!--Modal-->
-<div class="modal">
+<div class="modal popupPaid disabled popup_corporate" id="popupPaid">
     <div class="modal-page-corporate">
         <div class="modal-body">
             <div class="text-center">
+                <div id="popupPaid-close" class="popup-close">
+                    <span class="cross-line cross--topper"></span>
+                    <span class="cross-line cross--bottom"></span>
+                </div>
                 <h2 class="modal-title">Заказать корпоратив</h2>
             </div>
             <div class="modal-wrapp-form">
@@ -864,10 +879,10 @@
                         <input type="text" placeholder="Имя Фамилия">
                     </div>
                     <div class="i-w order-i-w">
-                        <input type="text" placeholder="Номер телефона">
+                        <input class="phone" type="text" placeholder="Номер телефона">
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn btn--red btn--popup w320">Оплатить мероприятие</a>
+                        <button class="btn btn--red btn--popup w320">Заказать корпоратив</button>
                         <p>Нажимая на кнопку "Оплатить мероприятие", вы даете согласие на обработку персональных данных</p>
                     </div>
                 </form>
@@ -875,10 +890,24 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-1.12.4.min.js"></script>
-<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+
+
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-1.12.4.min.js"></script>
+    <!-- <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-migrate-1.4.1.min.js"></script> -->
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/youtuber.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/js/main.js"></script>
+    <script type="text/javascript" src="bitrix/templates/delGusto/components/bitrix/sale.basket.basket.line/line/script.js"></script>
+
+    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="js/sertif.js"></script>
+
+<!--My-->
+<!-- <script type="text/javascript" src="bitrix/templates/delGusto/js/jquery-1.12.4.min.js"></script> -->
+<!-- <script src="libs/owlcarousel/owl.carousel.min.js"></script> -->
 <script src="libs/fancybox/jquery.fancybox.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script>
+<!-- <script src="js/jquery.maskedinput.min.js"></script> -->
 <script src="js/corporate.js"></script>
 
 </body>

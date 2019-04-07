@@ -28,6 +28,7 @@ textarea {
 }
 .btn {
     max-width: 290px;
+    /*min-width: 290px;*/
     margin: 0 auto;
 }
 .title {
@@ -807,18 +808,24 @@ input:-moz-placeholder {
 	font-size: 12px;
 	line-height: 24px;
 }
+.modal-wrapp-form .btn {
+	min-width: 290px;
+}
 /*Modal*/
 .modal-page-corporate {
 	/*border: 40px solid #fff;*/
 }
 
 .modal-body {
+	position: relative;
 	width: 650px;
 	margin: auto;
 	min-height: 450px;
 	padding: 57px;
 	border: 40px solid #fff;
-	background: rgba(238, 215, 191, 0.4);
+	/*background: rgba(238, 215, 191, 0.4);*/
+	background: rgba(238, 215, 191, 0.6);
+	/*background: rgb(238, 215, 191);*/
 }
 .modal-title {
 	font-size: 36px;
@@ -829,9 +836,14 @@ input:-moz-placeholder {
 	font-size: 12px;
 	line-height: 24px;
 }
+.modal-page-corporate .popup-close {
+	top: 5px;
+	right: 5px;
+}
 
-
-
+.popup_corporate {
+    background: rgba(255, 255, 255, 0.8);
+}
 
 
 
