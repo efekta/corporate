@@ -365,6 +365,14 @@ textarea {
 	width: 100%;
 	padding: 25px 0 25px 25px;
 }
+.form-wrap p.smal {
+color: #909090;
+font-size: 12px;
+}
+.smal {
+color: #909090;
+font-size: 12px;
+}
 .form-content {
     max-width: 665px;
     margin-right: auto;
