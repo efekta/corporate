@@ -1082,6 +1082,10 @@ input:-moz-placeholder {
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
+	.chef-item {
+		width: 100%;
+		height: auto;
+	}
 	.desctop {
 		order: 1;
 	}
@@ -1220,6 +1224,15 @@ input:-moz-placeholder {
 	.gallery a {
 	    display: block;
 	    width: 100%;
+	}
+	.price__pic {
+    	text-align: center;
+    	display: block;
+    	width: 100%;
+	}
+	.title__inner {
+		font-size: 24px;
+		line-height: 30px;
 	}
 	/*Modal*/
 	.modal-body {

@@ -10,11 +10,11 @@ $(document).ready(function($){
 	    responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:1,
+	            items:1.25,
 	            nav:false
 	        },
 	        600:{
-	            items:1,
+	            items:1.25,
 	            nav:false
 	        },
 	        1000:{
@@ -31,11 +31,11 @@ $(document).ready(function($){
 	    responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:1.5,
+	            items:1.25,
 	            nav:false
 	        },
 	        600:{
-	            items:2,
+	            items:1.25,
 	            nav:false
 	        },
 	        1000:{
@@ -74,10 +74,10 @@ $('.chef-wrapp__list').find('.owl-carousel').owlCarousel({
 	margin:10,
 	responsive: {
 		0: {
-		items: 1.5
+		items: 1.25
 		},
 		320: {
-		items: 1.5
+		items: 1.25
 		},
 		600: {
 		items: 2
