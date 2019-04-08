@@ -35,7 +35,7 @@ $(document).ready(function($){
 	            nav:false
 	        },
 	        600:{
-	            items:1.25,
+	            items:2,
 	            nav:false
 	        },
 	        1000:{
@@ -64,11 +64,11 @@ window_resize();
 });
 function window_resize() {
 // mobile
-if ( $(window).width() < 768 ) {
+if ( $(window).width() <= 768 ) {
 if ( !$('.chef-wrapp__list').find('.owl-carousel').hasClass('owl-loaded') ) {
 $('.chef-wrapp__list').find('.owl-carousel').owlCarousel({
 	dots: false,
-	items: 3,
+	items: 2,
 	loop: true,
 	nav: false,
 	margin:10,
@@ -83,7 +83,7 @@ $('.chef-wrapp__list').find('.owl-carousel').owlCarousel({
 		items: 2
 		},
 		768: {
-		items: 3
+		items: 2
 		},
 		1200: {
 		items: 3

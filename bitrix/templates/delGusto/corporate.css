@@ -1085,8 +1085,8 @@ input:-moz-placeholder {
 		flex-direction: column;
 	}
 	.chef-item {
-		width: 100%;
-		height: auto;
+		/*width: 100%;*/
+		/*height: auto;*/
 	}
 	.desctop {
 		order: 1;
@@ -1284,6 +1284,12 @@ input:-moz-placeholder {
 	    border: 2px solid #ffffff;
 	    pointer-events: none;
 	    z-index: 2;
+	}
+	.i-w_data i {
+	    position: absolute;
+	    right: 10px;
+	    top: 50%;
+	    transform: translateY(-50%);
 	}
 	/*Modal*/
 	.modal-body {
