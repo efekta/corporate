@@ -26,6 +26,21 @@ textarea {
 	outline: none;
 	resize: none;
 }
+.chef-wrapp__list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.owl-carousel.owl-drag .owl-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
 .mob {
 	display: none;
 }
@@ -95,22 +110,12 @@ textarea {
 	text-align: center;
 }
 .one-box__pic {
-	/*position: relative;*/
 	width: 50%;
-	/*background: url('../../../img/banner.jpg') no-repeat;*/
-/*	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;*/
-	/*height: 651px;*/
 	padding: 0;
 }
-/*.one-box__pic img {
-	height: 100%;
-}*/
 .inner-box {
 	position: relative;
-	/*z-index: 2;*/
+	box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.1);
 	margin-right: -205px;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -119,6 +124,9 @@ textarea {
 	display: flex;
 	justify-content: space-between;
 	background-color: #fff;
+}
+.box-mob {
+	display: none;
 }
 .inner-box__item {
 	width: 25%;
@@ -446,6 +454,7 @@ button.btn {
 	overflow: hidden;
 	margin: 0 17px;
 }
+
 .chef-content {
 	position: absolute;
 	width: 100%;
@@ -1011,6 +1020,10 @@ input:-moz-placeholder {
 	.form-wrapp-box {
 		width: 100%;
 	}
+	.gallery a {
+	    display: block;
+	    width: 50%;
+	}
 }
 
 
@@ -1038,21 +1051,42 @@ input:-moz-placeholder {
     	width: 100%;
     	margin-left: 0;
 	}
-
+	.inner-box {
+		display: none;
+	}
+	.box-mob {
+		display: block;
+		margin-bottom: 20px;
+	}
 	.inner-box {
 	    margin-right: 0;
 	    flex-wrap: wrap;
 	    margin-bottom: 20px;
 	}
-	.inner-box__item {
-		width: 50%;
+	.inner-box__item_mob {
 		box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.1);
 	}
-	.desctop {
-		display: none;
+	.box-mob .inner-box__item {
+		width: 48%;
+    	display: inline-block;
 	}
-	.mob {
-		display: block;
+	.one-box-wrap {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.desctop {
+		order: 1;
+	}
+	.ptb-57 {
+		padding: 0;
 	}
 	.fz-18_mob {
 	    margin-left: auto;
@@ -1073,7 +1107,7 @@ input:-moz-placeholder {
 	}
 
 	.program__item {
-		width: 50%;
+		width: 47%;
 		text-align: center;
 	}
 	.program__item_mob_bg {
@@ -1183,7 +1217,10 @@ input:-moz-placeholder {
 	.order-i-w input, .order-i-w textarea {
 		margin-bottom: 0;
 	}
-
+	.gallery a {
+	    display: block;
+	    width: 100%;
+	}
 	/*Modal*/
 	.modal-body {
 		max-width: 100%;
