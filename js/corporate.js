@@ -10,11 +10,11 @@ $(document).ready(function($){
 	    responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:1.25,
+	            items:1,
 	            nav:false
 	        },
 	        600:{
-	            items:1.25,
+	            items:1,
 	            nav:false
 	        },
 	        1000:{

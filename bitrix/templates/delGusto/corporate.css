@@ -904,6 +904,7 @@ input:-moz-placeholder {
 /*Modal*/
 .modal-page-corporate {
 	/*border: 40px solid #fff;*/
+
 }
 .modal-wrapp-form {
 	position: relative;
@@ -917,7 +918,7 @@ input:-moz-placeholder {
 	max-width: 650px;
 	margin: auto;
 	min-height: 450px;
-	padding: 47px 67px;
+	padding: 47px 70px;
 	border: 40px solid #fff;
 	/*background: rgba(238, 215, 191, 0.4);*/
 	background: rgba(238, 215, 191, 0.4);
@@ -1069,6 +1070,7 @@ input:-moz-placeholder {
 	.box-mob .inner-box__item {
 		width: 48%;
     	display: inline-block;
+    	vertical-align: top;
 	}
 	.one-box-wrap {
 		display: -webkit-flex;
@@ -1111,7 +1113,7 @@ input:-moz-placeholder {
 	}
 
 	.program__item {
-		width: 47%;
+		width: 37%;
 		text-align: center;
 	}
 	.program__item_mob_bg {
@@ -1121,9 +1123,9 @@ input:-moz-placeholder {
 		content: "";
 	    position: absolute;
 	    top: 0;
-	    right: -100px;
+	    right: -115px;
 	    transform: translateX(-50%);
-	    width: 100px;
+	    width: 80px;
 	    height: 145px;
 		background: url(../../../img/icons/vbgmob.svg);
 		background-repeat: no-repeat;
@@ -1136,6 +1138,7 @@ input:-moz-placeholder {
 	}
 	.price {
 	    flex-wrap: wrap;
+	    margin-bottom: 30px;
 	}
 
 	.price__list {
@@ -1155,6 +1158,7 @@ input:-moz-placeholder {
 	.price__item p {
 		display: inline-block;
 		vertical-align: middle;
+		width: 60%;
 	}
 	.form-wrap {
 		-webkit-flex-wrap: wrap;
@@ -1162,14 +1166,14 @@ input:-moz-placeholder {
 		-ms-flex-wrap: wrap;
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 40px;
+		padding: 10px;
 	}
 	.form-wrap__pic {
 		display: none;
 	}
 	.box-content {
 		width: 100%;
-		padding: 40px;
+		padding: 20px;
 	}
 	.form-content {
 		max-width: 100%;
@@ -1192,7 +1196,7 @@ input:-moz-placeholder {
 		margin-bottom: 20px;
 	}
 	.section-gallery > .text-center {
-    	width: 60%;
+    	width: 80%;
 	}
 	.accordion-container_img::before {
 		display: none;
@@ -1201,7 +1205,7 @@ input:-moz-placeholder {
 		display: none;
 	}
 	.section-chef-owl {
-		width: 70%;
+		width: 85%;
 	}
 	.section-order_img::before,
 	.order-wrapp-form::before,
@@ -1230,16 +1234,67 @@ input:-moz-placeholder {
     	display: block;
     	width: 100%;
 	}
+	.title {
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.section .fz-18_mob {
+		width: 80%;
+		margin-lift: auto;
+		margin-right: auto;
+	}
 	.title__inner {
 		font-size: 24px;
 		line-height: 30px;
+	}
+	.mt30 {
+		margin-top: 30px;
+	}
+	.section {
+		padding: 30px 0;
+	}
+	.set-item {
+		padding: 20px 0;
+		text-align: left;
+	}
+	.set-title {
+		font-size: 18px;
+		text-transform: none;
+	}
+	.form-wrap::before {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: calc(100% - 24px);
+	    height: calc(100% - 24px);
+	    margin: 10px;
+	    border: 2px solid #ffffff;
+	    pointer-events: none;
+	    z-index: 2;
+	}
+	.form-wrap::after {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: calc(100% - 44px);
+	    height: calc(100% - 44px);
+	    margin: 20px;
+	    border: 2px solid #ffffff;
+	    pointer-events: none;
+	    z-index: 2;
 	}
 	/*Modal*/
 	.modal-body {
 		max-width: 100%;
 		width: 100%;
+		padding: 30px 60px;
 	}
-
+	.modal-title {
+		font-size: 24px;
+		line-height: 30px;
+	}
 }
 
 
