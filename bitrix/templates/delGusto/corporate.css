@@ -7,7 +7,7 @@ html, body {
     margin: 0;
     padding: 0;
 	font-family: Calibri;
-    font-size: 14px;
+    font-size: 18px;
     color: #323232;
 }
 img {
@@ -15,7 +15,9 @@ img {
 	height: auto;
 }
 p {
-	color: #000000;
+/*	padding: 0;
+	margin: 0;*/
+	color: #000;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
@@ -361,7 +363,7 @@ textarea {
 }
 .box-content {
 	width: 100%;
-	padding: 40px 0 40px 40px;
+	padding: 25px 0 25px 25px;
 }
 .form-content {
     max-width: 665px;
@@ -387,6 +389,8 @@ textarea {
 	justify-content: space-between;
 }
 .i-w {
+/*	min-width: 234px;
+	min-width: 234px;*/
 	display: inline-block;
 	margin-right: 10px;
 }
@@ -396,6 +400,21 @@ textarea {
 	border: none;
 	padding: 15px;
 	border-radius: 6px;
+	/*width: 100%;*/
+}
+.user-input .i-w {
+	min-width: 234px;
+	min-width: 234px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.user-input .i-w input {
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 15px;
+	border-radius: 6px;
+	width: 100%;
 }
 button.btn {
 	min-width: 220px;
