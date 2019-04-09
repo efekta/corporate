@@ -561,7 +561,8 @@ button.btn {
 /* reviews */
 
 .reviews__item {
-	margin: 20px 30px;
+	/*margin: 20px 30px;*/
+	margin: 20px;
 	text-align: left;
 	padding: 30px;
 	background: #FFFFFF;
