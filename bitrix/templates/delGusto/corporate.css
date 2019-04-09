@@ -196,9 +196,11 @@ textarea {
 	width: 100px;
 	/*width: 19%;*/
 	margin: 0 20px;
+	font-size: 14px;
+}
+.p-bold {
 	font-size: 16px;
 }
-
 .program__item_box {
 	width: 100px;
 	height: 100px;
