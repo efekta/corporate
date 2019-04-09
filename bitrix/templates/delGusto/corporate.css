@@ -56,12 +56,12 @@ textarea {
 .title {
 	font-family: Calibri;
 	font-size: 40px;
-	line-height: 46px;
+	/*line-height: 46px;*/
 	margin-bottom: 20px;
 }
 .title__inner {
 	font-size: 36px;
-	line-height: 52px;
+	/*line-height: 52px;*/
 	/*color: #000;*/
 	/*margin: 0;	*/
 }
@@ -75,7 +75,7 @@ textarea {
 	padding: 56px 0 42px 0;
 }
 .section-program .title__inner {
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 }
 /* layout */
 .one-section-wrapp {
