@@ -548,9 +548,9 @@ button.btn {
 	font-size: 26px;
 	line-height: 24px;
 }
-.chef-content__i {
-	/*top: 0;*/
-	/*padding-top: 60px;*/
+.chef-item:hover .chef-content__i {
+	top: 0;
+	padding-top: 60px;
 }
 
 /* reviews */
