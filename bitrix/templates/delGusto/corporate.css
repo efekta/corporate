@@ -546,6 +546,7 @@ button.btn {
 }
 .chef-item:hover .chef-content__i {
 	top: 0;
+	padding-top: 50px;
 }
 
 /* reviews */
