@@ -16,6 +16,7 @@ img {
 	height: auto;
 }
 p {
+
 	padding: 0;
 	margin: 0;
 	margin-bottom: 10px;
@@ -195,6 +196,7 @@ textarea {
 	width: 100px;
 	/*width: 19%;*/
 	margin: 0 20px;
+	font-size: 14px;
 }
 
 .program__item_box {
@@ -239,6 +241,7 @@ textarea {
 	padding-top: 10px;
 	color: rgba(136, 116, 116, 0.6);
 	margin-bottom: 20px;
+	font-size: 14px;
 }
 
 .link-box::before {
@@ -303,6 +306,7 @@ textarea {
 .price__item {
 	width: 25%;
 	padding: 10px;
+	font-size: 16px;
 }
 .price__pic {
 	margin-top: -60px;
@@ -455,9 +459,10 @@ button.btn {
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
-.section-gallery > .text-center {
+.section-gallery  .mb20 {
 	width: 40%;
 	margin: auto;
+	margin-bottom: 20px;
 }
 .gallery a {
 	display: block;
@@ -571,6 +576,7 @@ button.btn {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 20px;
 }
 .head-review span {
 	font-size: 18px;
