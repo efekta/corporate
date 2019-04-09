@@ -676,6 +676,8 @@ button.btn {
 }
 .accordion-container {
 	padding-bottom: 60px;
+	max-width: 814px;
+    margin: auto;
 }
 .accordion-container_img {
 	position: relative;
@@ -958,6 +960,7 @@ input:-moz-placeholder {
 	/*border: 40px solid #fff;*/
 	/*background: rgba(238, 215, 191, 0.4);*/
 	background: rgb(238, 215, 191);
+	/*background: #EED7BF;*/
 	/*background: rgb(238, 215, 191);*/
 }
 
@@ -1070,6 +1073,12 @@ input:-moz-placeholder {
 	.gallery a {
 	    display: block;
 	    width: 50%;
+	}
+	.accordion-container {
+		padding-bottom: 60px;
+		max-width: 100%;
+		width: 100%;
+	    margin: auto;
 	}
 }
 
