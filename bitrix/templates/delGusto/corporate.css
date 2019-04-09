@@ -146,6 +146,7 @@ textarea {
 	display: block;
 	width: 32px;
     height: 32px;
+    margin-bottom: 10px;
 }
 .svg-ico {
 	width: 32px;
@@ -192,6 +193,8 @@ textarea {
 
 .program__item {
 	width: 100px;
+	/*width: 19%;*/
+	margin: 0 20px;
 }
 
 .program__item_box {
@@ -382,6 +385,7 @@ font-size: 12px;
 .smal {
 color: #909090;
 font-size: 12px;
+margin-top: 10px;
 }
 .form-content {
     max-width: 665px;
@@ -998,7 +1002,17 @@ input:-moz-placeholder {
     background: rgba(255, 255, 255, 0.8);
 }
 
-
+.w-220 {
+	min-width: 220px;
+	max-width: 220px;
+	margin: auto;
+}
+.order-wrapp-form button.btn {
+	min-width: 320px;
+	max-width: 320px;
+	margin: auto;
+	margin-bottom: 20px;
+}
 
 
 
@@ -1079,6 +1093,9 @@ input:-moz-placeholder {
 	.one-box__pic {
 		display: none;
 	}
+	.link-box::before {
+		width: 100%;
+	}
 	.one-box-wrap {
     	max-width: 100%;
     	width: 100%;
@@ -1091,6 +1108,7 @@ input:-moz-placeholder {
 		display: block;
 		margin-bottom: 20px;
 	}
+
 	.inner-box {
 	    margin-right: 0;
 	    flex-wrap: wrap;
@@ -1145,8 +1163,9 @@ input:-moz-placeholder {
 	}
 
 	.program__item {
-		width: 37%;
-		text-align: center;
+		width: 45%;
+		text-align: left;
+		margin: 0;
 	}
 	.program__item_mob_bg {
 		position: relative;
@@ -1155,9 +1174,9 @@ input:-moz-placeholder {
 		content: "";
 	    position: absolute;
 	    top: 0;
-	    right: -115px;
+	    right: -103px;
 	    transform: translateX(-50%);
-	    width: 80px;
+	    width: 90px;
 	    height: 145px;
 		background: url(../../../img/icons/vbgmob.svg);
 		background-repeat: no-repeat;
@@ -1167,6 +1186,7 @@ input:-moz-placeholder {
 	}
 	.program__item_box {
 		margin: auto;
+		margin-bottom: 20px;
 	}
 	.price {
 	    flex-wrap: wrap;
@@ -1324,28 +1344,32 @@ input:-moz-placeholder {
 	    top: 50%;
 	    transform: translateY(-50%);
 	}
+	.order-wrapp-form button.btn {
+    	min-width: 100%;
+    	max-width: 100%;
+    	margin: auto;
+    	margin-bottom: 20px;
+	}
+	button.btn {
+	    min-width: 100%;
+	    max-width: 100%;
+	    margin: 0;
+	    display: inline-block;
+	}
+	.user-input .i-w {
+		margin-right: 0;
+	}
 	/*Modal*/
 	.modal-body {
 		max-width: 100%;
 		width: 100%;
-		padding: 30px 60px;
+		padding: 30px;
+		border: none;
 	}
 	.modal-title {
 		font-size: 24px;
 		line-height: 30px;
 	}
-}
-
-.w-220 {
-	min-width: 220px;
-	max-width: 220px;
-	margin: auto;
-}
-.order-wrapp-form button.btn {
-	min-width: 320px;
-	max-width: 320px;
-	margin: auto;
-	margin-bottom: 20px;
 }
 
 
