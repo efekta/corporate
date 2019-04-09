@@ -563,6 +563,7 @@ button.btn {
 .reviews__item {
 	/*margin: 20px 30px;*/
 	margin: 20px;
+	/*margin-right: 10px;*/
 	text-align: left;
 	padding: 30px;
 	background: #FFFFFF;
@@ -1423,4 +1424,12 @@ input:-moz-placeholder {
 .mb20 {
 	margin-bottom: 20px;
 }
-
+.wrapp_ico-plus {
+	width: 17px;
+	height: 17px;
+}
+.ico-plus {
+	color: #1E201D;
+	width: 17px;
+	height: 17px;
+}
