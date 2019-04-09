@@ -31,6 +31,11 @@ textarea {
 	outline: none;
 	resize: none;
 }
+.c-btn {
+	background: linear-gradient(13.94deg, #ED3E24 8.96%, #FF8D68 98.42%);
+	box-shadow: 0px 6px 20px rgba(14, 18, 34, 0.16);
+	border-radius: 6px;
+}
 .chef-wrapp__list{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -1078,6 +1083,11 @@ input:-moz-placeholder {
 	    line-height: 36px;
 	    margin-bottom: 20px;
 	}
+	.section-gallery .mb20 {
+    	width: 90%;
+    	margin: auto;
+    	margin-bottom: 20px;
+	}
 }
 
 @media only screen and (max-width: 960px) and (min-width: 320px) {
@@ -1271,7 +1281,8 @@ input:-moz-placeholder {
 		margin-bottom: 20px;
 	}
 	.section-gallery > .text-center {
-    	width: 80%;
+    	width: 100%;
+    	margin: auto;
 	}
 	.accordion-container_img::before {
 		display: none;
@@ -1384,6 +1395,11 @@ input:-moz-placeholder {
 	}
 	.section-accordion .box-link.w-220 {
 		display: none;
+	}
+	.section-gallery .mb20 {
+    	width: 100%;
+    	margin: auto;
+    	margin-bottom: 20px;
 	}
 	/*Modal*/
 	.modal-body {
