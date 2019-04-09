@@ -1455,6 +1455,7 @@ input:-moz-placeholder {
 .wrapp_ico-plus {
 	width: 17px;
 	height: 17px;
+	margin-bottom: 0;
 }
 .ico-plus {
 	color: #1E201D;
