@@ -959,7 +959,8 @@ input:-moz-placeholder {
 	padding: 47px 70px;
 	/*border: 40px solid #fff;*/
 	/*background: rgba(238, 215, 191, 0.4);*/
-	background: rgb(238, 215, 191);
+	/*background: rgb(238, 215, 191);*/
+	background: #f8e1ca;
 	/*background: #EED7BF;*/
 	/*background: rgb(238, 215, 191);*/
 }
