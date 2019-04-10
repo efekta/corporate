@@ -87,7 +87,8 @@ textarea {
 }
 /* layout */
 .one-section-wrapp {
-	background: #F8EFE5;
+	background-color: #F8EFE5;
+	/*position: relative;*/
 }
 .one-section {
 	display: -webkit-flex;
@@ -103,12 +104,17 @@ textarea {
 	/*position: relative;*/
 }
 .one-box {
-	width: 60%;
-	padding: 20px;
+	/*width: 60%;*/
+	/*padding: 20px;*/
 }
 .one-box-wrap {
-	max-width: 600px;
+	max-width: 540px;
 	margin-left: auto;
+	/*padding: 100px 0 57px;*/
+	padding-top: 100px;
+}
+.mb57  {
+	margin-bottom: 57px;
 }
 .one-box .btn {
 	margin: 0;
@@ -127,8 +133,8 @@ textarea {
 	text-align: center;
 }
 .one-box__pic {
-	width: 40%;
-	padding: 0;
+	/*width: 40%;*/
+	/*padding: 0;*/
 }
 .inner-box {
 	position: relative;
@@ -170,8 +176,8 @@ textarea {
 /*Video*/
 .video-box {
 	position: relative;
-	margin: 0 auto;
-    max-width: 800px;
+	/*margin: 0 auto;*/
+    /*max-width: 1000px;*/
 }
 .play-ico {
 	cursor: pointer;
