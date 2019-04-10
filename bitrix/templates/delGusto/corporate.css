@@ -1288,12 +1288,18 @@ input:-moz-placeholder {
 	}
 	.box-content {
 		width: 100%;
-		padding: 20px;
+		padding: 40px 20px;
+	}
+	.user-input .i-w {
+		min-width: 100%;
 	}
 	.form-content {
 		max-width: 100%;
 		width: 100%;
 		margin-right: 0;
+	}
+	.title__inner {
+		font-size: 30px;
 	}
 	.user-input {
 		-webkit-flex-wrap: wrap;
@@ -1361,8 +1367,8 @@ input:-moz-placeholder {
 	}
 	.title__inner {
 		/*color: #000;*/
-		font-size: 24px;
-		line-height: 30px;
+		font-size: 30px;
+		line-height: 24px;
 	}
 	.mt30 {
 		margin-top: 30px;
