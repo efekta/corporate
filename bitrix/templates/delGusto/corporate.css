@@ -110,8 +110,8 @@ textarea {
 .one-box-wrap {
 	max-width: 540px;
 	margin-left: auto;
-	/*padding: 100px 0 57px;*/
-	padding-top: 100px;
+	padding: 100px 0 57px;
+	/*padding-top: 100px;*/
 }
 .mb57  {
 	margin-bottom: 57px;
