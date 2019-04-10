@@ -170,6 +170,30 @@ var dateInputMask = function dateInputMask(elm) {
 };
 dateInputMask(input);
  
+ // /Popup
+// const clickBtn = document.querySelector(".modal-btn"),
+//       modal = document.querySelector(".modal"),
+//       closeBtn = document.querySelector(".close-btn");
+
+// clickBtn.addEventListener("click", showModal);
+// closeBtn.addEventListener("click", closeModal);
+// window.addEventListener("click", clickOutside);
+
+
+// function showModal() {
+//     modal.style.display = "block";
+// }
+
+// function closeModal() {
+//   modal.style.display = "none";
+// }
+
+// function clickOutside(e) {
+//     if (e.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
+
 
 
 })

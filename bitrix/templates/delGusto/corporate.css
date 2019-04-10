@@ -1003,6 +1003,17 @@ input:-moz-placeholder {
     height: 215px;
     z-index: -1;
 }
+.modal {
+	animation: popUp 0.5s ease-in;
+}
+@keyframes popUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 /*Modal*/
 .modal-page-corporate {
 	/*border: 40px solid #fff;*/
