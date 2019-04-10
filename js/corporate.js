@@ -5,7 +5,7 @@ $(document).ready(function($){
 
 	$('.reviews').owlCarousel({
 	    loop:true,
-	    // margin:20,
+	    margin:20,
 	    nav: true,
 	    responsiveClass:true,
 	    responsive:{
@@ -31,11 +31,12 @@ $(document).ready(function($){
 	    responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:1.25,
-	            nav:false
+	            items:2.25,
+	            nav:false,
+	            margin:0
 	        },
 	        600:{
-	            items:2,
+	            items:2.25,
 	            nav:false
 	        },
 	        1000:{
@@ -71,7 +72,7 @@ $('.chef-wrapp__list').find('.owl-carousel').owlCarousel({
 	items: 2,
 	loop: true,
 	nav: false,
-	margin:10,
+	// margin:10,
 	responsive: {
 		0: {
 		items: 1.25
