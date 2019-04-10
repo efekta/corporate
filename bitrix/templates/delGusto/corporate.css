@@ -89,6 +89,7 @@ textarea {
 .one-section-wrapp {
 	background-color: #F8EFE5;
 	/*position: relative;*/
+	/*width: 40%;*/
 }
 .one-section {
 	display: -webkit-flex;
@@ -102,14 +103,15 @@ textarea {
 	-o-flex-wrap: nowrap;
 	flex-wrap: nowrap;
 	/*position: relative;*/
+	/*width: 60%;*/
 }
 .one-box {
 	/*width: 60%;*/
 	/*padding: 20px;*/
 }
 .one-box-wrap {
-	max-width: 540px;
-	margin-left: auto;
+	max-width: 600px;
+	margin-right: auto;
 	padding: 100px 0 57px;
 	/*padding-top: 100px;*/
 }
