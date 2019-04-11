@@ -1602,6 +1602,8 @@ color: #000000;
 		padding: 0 0 0 60px;
 	}
 	.chef-item {
+		height: 435px;
+		width: 200px;
 		margin-left: 0;
 		margin-right: 20px;
 	}
