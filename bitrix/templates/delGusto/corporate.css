@@ -528,6 +528,9 @@ button.btn {
 	height: 464px;
 	overflow: hidden;
 	margin: 0 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
 }
 
 .chef-content {
