@@ -5,7 +5,7 @@ $(document).ready(function($){
 
 	$('.reviews').owlCarousel({
 	    loop:true,
-	    margin:20,
+	    margin:0,
 	    nav: true,
 	    responsiveClass:true,
 	    responsive:{
